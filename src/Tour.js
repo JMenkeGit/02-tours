@@ -2,9 +2,6 @@ import React, { useState } from 'react'
 
 const Tour = ({ id, name, info, image, price, removeTour }) => {
   const [readMore, setReadMore] = useState(false)
-  const deleteTour = (id) => {
-    console.log('blub')
-  }
 
   return (
     <article className='single-tour'>
